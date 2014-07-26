@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:text="Hello World" />
+
+        <!-- this is the button that will trigger sliding of the expandable view -->
+
+        <Button
+            android:id="@+id/expandable_toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/text"
+            android:text="V" />
+    </RelativeLayout>
+
+    <!-- this is the expandable view that is initially hidden and will slide out when the more button is pressed -->
+
+    <RelativeLayout
+        android:id="@+id/expandable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:orientation="horizontal" >
+
+        <!-- put whatever you want in the expandable view -->
+
+        <TextView
+            android:id="@+id/detailsText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/buttonAdd"
+            android:layout_weight="0.55"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@id/detailsText"
+            android:textAlignment="center"
+            android:layout_weight="0.55"
+            android:text="Add" />
+    </RelativeLayout>
+
+</LinearLayout>

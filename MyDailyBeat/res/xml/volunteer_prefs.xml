@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:title="Spiritual" android:key="spiritual" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="Nonprofit" android:key="nonprofit" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="Community" android:key="community" android:defaultValue="false"/>
+    
+
+</PreferenceScreen>

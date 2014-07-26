@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">MyDailyBeat</string>
+    <string name="welcome_message">You are about to join the most vibrant community for older adults.\n\nLook No Further!</string>
+    <string name="welcome_message2">Let MyDailyBeat be the place you come to every day to help manage your personal life, keep you engaged, socialize, and stay connected.</string>
+    <string name="one_step_away">You are one click away from becoming an official member of MyDailyBeat!</string>
+    <string name="verify_membership">So we can verify your membership, please provide the following.</string>
+
+    <string-array name="listentries">
+        <item>Man looking for Woman</item>
+        <item>Woman looking for Man</item>
+        <item>Man looking for Man</item>
+        <item>Woman looking for Woman</item>
+        <item>Couple looking for Couple</item>
+        <item>Bisexual looking for Bisexual</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="username">Screen Name: </string>
+    <string name="digits_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz -_.,01234567879()@</string>
+	<string name="password">Password:</string>
+	<string name="login">Login</string>
+	<string name="next_string">Next >>></string>
+</resources>

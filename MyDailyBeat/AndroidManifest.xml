@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.verve"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.verve.activity.TabFragmentActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GettingStarted"
+            android:label="Setup" />
+        <activity
+            android:name=".activity.MakeFriendsPrefs"
+            android:label="Make new friends!" />
+        <activity
+            android:name=".activity.DateExclusivelyPrefs"
+            android:label="Date Exclusively!" />
+        <activity
+            android:name=".activity.FlingPrefs"
+            android:label="Have a Fling!" />
+        <activity
+            android:name=".activity.SocialActivities"
+            android:label="Participate in Social Activities" />
+        <activity
+            android:name=".activity.VolunteerPrefs"
+            android:label="Volunteer!" />
+        <activity android:name=".activity.StartScreen" />
+        <activity
+            android:name=".dialog.LoginDialog"
+            android:label="Login"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".dialog.LoginError"
+            android:label="Login Failed!"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity
+            android:name=".activity.VolunteeringList"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".activity.AddFriendsListActivity"
+            android:theme="@android:style/Theme.Holo.Light" />
+    </application>
+
+</manifest>

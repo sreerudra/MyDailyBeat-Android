@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Virinchi/workspace/ViewPagerIndicatorLibrary/libs/android-support-v13.jar"/>
+	<classpathentry exported="true" kind="src" path="/ViewPagerIndicatorLibrary"/>
+	<classpathentry exported="true" kind="lib" path="libs/joda-time-2.3.jar" sourcepath="libs/joda-time-2.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MyDailyBeat/libs/joda-time-2.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/gridlayout_v7"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/SlideExpandableListView"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
