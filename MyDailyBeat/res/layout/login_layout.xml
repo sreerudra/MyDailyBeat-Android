@@ -23,7 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_toRightOf="@id/textview_username"
-            android:digits="@string/digits_restriction"
             android:imeOptions="actionNext"
             android:inputType="textEmailAddress"
             android:maxLength="10"

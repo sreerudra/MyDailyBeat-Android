@@ -49,8 +49,14 @@
         android:defaultValue="false"
         android:key="outdoor_activities"
         android:title="Outdoor Activities" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="spiritual"
+        android:title="Spiritual" />
 
-    <CheckBoxPreference android:title="Spiritual" android:key="spiritual" android:defaultValue="false"/><PreferenceScreen android:title="Sports" android:key="sports">
+    <PreferenceScreen
+        android:key="sports"
+        android:title="Sports" >
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="baseball"
@@ -68,7 +74,10 @@
             android:key="car_racing"
             android:title="Car Racing" />
     </PreferenceScreen>
-    
-    <CheckBoxPreference android:title="Woodworking" android:key="woodworking" android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="woodworking"
+        android:title="Woodworking" />
 
 </PreferenceScreen>
