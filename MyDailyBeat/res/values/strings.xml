@@ -15,12 +15,12 @@
         <item>Bisexual looking for Bisexual</item>
     </string-array>
     <string-array name="listvalues">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
-        <item>6</item>
     </string-array>
     <string-array name="months">
         <item>January</item>
@@ -37,7 +37,7 @@
         <item>December</item>
     </string-array>
     <string name="username">Screen Name: </string>
-    <string name="digits_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz -_.,01234567879()@</string>
+    <string name="digits_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz -_.,01234567879()@+=</string>
 	<string name="password">Password:</string>
 	<string name="login">Login</string>
 	<string name="next_string">Next >>></string>

@@ -12,7 +12,7 @@ import com.verve.R;
 
 public class StartScreen extends Activity {
 
-	Button makeFriends, date, fling, social, volunteer;
+	Button makeFriends, date, fling, social, volunteer, go;
 
 	/*
 	 * (non-Javadoc)
@@ -82,6 +82,15 @@ public class StartScreen extends Activity {
 
 				startActivity(new Intent(StartScreen.this, VolunteerPrefs.class));
 
+			}
+		});
+		
+		go = (Button) findViewById(R.id.button9);
+		go.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				finish();
 			}
 		});
 		

@@ -130,7 +130,7 @@ public class LoginDialog extends Activity {
 	 * preferences if it is successful. Otherwise, it calls LoginError.
 	 * 
 	 */
-	private class LoginTask extends AsyncTask<Void, Void, Boolean> {
+	public class LoginTask extends AsyncTask<Void, Void, Boolean> {
 		
 		ProgressDialog d;
 		

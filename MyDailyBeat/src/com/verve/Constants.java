@@ -15,6 +15,8 @@ public final class Constants {
 			+ "SOCIAL_ACTIVITIES_SETUP_COMPLETE";
 	public static final String VOLUNTEER_SETUP_COMPLETE_TAG = BASE_TAG
 			+ "VOLUNTEER_SETUP_COMPLETE";
+	public static final int LOGIN_REQUEST = 9019;
+	public static final String DEFAULT_AGE = "50";
 	
 	
 }
