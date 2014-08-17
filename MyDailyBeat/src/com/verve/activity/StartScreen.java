@@ -1,25 +1,35 @@
 package com.verve.activity;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.Build;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
+import ar.com.daidalos.afiledialog.FileChooserDialog;
 
 import com.verve.Constants;
 import com.verve.R;
+import com.verve.api.API;
 
 public class StartScreen extends Activity {
 
+	
+
 	Button changeprofilepic, makeFriends, date, fling, social, volunteer, go;
+	ImageView profilePic;
 
 	/*
 	 * (non-Javadoc)
@@ -36,6 +46,9 @@ public class StartScreen extends Activity {
 		editor.putBoolean(Constants.SETUP_COMPLETE_TAG, true);
 		editor.commit();
 
+		profilePic = (ImageView) findViewById(R.id.imageView1);
+		new GetServingURLTask().execute();
+
 		changeprofilepic = (Button) findViewById(R.id.button10);
 		changeprofilepic.setOnClickListener(new View.OnClickListener() {
 
@@ -43,20 +56,26 @@ public class StartScreen extends Activity {
 			@Override
 			public void onClick(View v) {
 
-				if (Build.VERSION.SDK_INT < 19) {
-					Intent intent = new Intent();
-					intent.setType("image/jpeg");
-					intent.setAction(Intent.ACTION_GET_CONTENT);
-					startActivityForResult(
-							Intent.createChooser(intent, "Select Picture"),
-							Constants.SELECT_PICTURE_REQUEST);
-				} else {
-					Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-					intent.addCategory(Intent.CATEGORY_OPENABLE);
-					intent.setType("image/jpeg");
-					startActivityForResult(intent,
-							Constants.SELECT_PICTURE_REQUEST_KITKAT);
-				}
+				FileChooserDialog dialog = new FileChooserDialog(
+						StartScreen.this);
+				dialog.setFilter(".*jpg|.*png|.*gif|.*JPG|.*PNG|.*GIF");
+				dialog.addListener(new FileChooserDialog.OnFileSelectedListener() {
+
+					@Override
+					public void onFileSelected(Dialog source, File folder,
+							String name) {
+						source.hide();
+						// files will never be created, so this method is unused
+					}
+
+					@Override
+					public void onFileSelected(Dialog source, File file) {
+						source.hide();
+						new UploadProfilePictureTask(file).execute();
+
+					}
+				});
+				dialog.show();
 
 			}
 		});
@@ -127,65 +146,122 @@ public class StartScreen extends Activity {
 
 	}
 
-	// To handle when an image is selected from the browser, add the following
-	// to your Activity
-	@SuppressLint("NewApi")
-	@Override
-	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+	public class UploadProfilePictureTask extends
+			AsyncTask<Void, Void, Boolean> {
 
-		if (resultCode == RESULT_OK) {
+		ProgressDialog p = ProgressDialog.show(StartScreen.this, "",
+				"Uploading profile picture...");
+		File fileToUpload;
 
-			Uri originalUri = data.getData();
+		public UploadProfilePictureTask(File fileToUpload) {
+			super();
+			this.fileToUpload = fileToUpload;
+		}
 
-			if (requestCode == Constants.SELECT_PICTURE_REQUEST_KITKAT) {
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+			p.show();
+		}
 
-				final int takeFlags = data.getFlags()
-						& (Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
-				// Check for the freshest data.
-				getContentResolver().takePersistableUriPermission(originalUri,
-						takeFlags);
+		@Override
+		protected Boolean doInBackground(Void... arg0) {
+			// TODO Auto-generated method stub
+			try {
+				return API.getInstance(StartScreen.this).uploadProfilePicture(
+						fileToUpload);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
-				/*
-				 * now extract ID from Uri path using getLastPathSegment() and
-				 * then split with ":" then call get Uri to for Internal storage
-				 * or External storage for media I have used getUri()
-				 */
+			return false;
+		}
 
-				String id = originalUri.getLastPathSegment().split(":")[1];
-				final String[] imageColumns = { MediaStore.Images.Media.DATA };
-				final String imageOrderBy = null;
+		@Override
+		protected void onPostExecute(Boolean result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
 
-				Uri uri = getUri();
-				String selectedImagePath = "path";
-
-				Cursor imageCursor = managedQuery(uri, imageColumns,
-						MediaStore.Images.Media._ID + "=" + id, null,
-						imageOrderBy);
-
-				if (imageCursor.moveToFirst()) {
-					selectedImagePath = imageCursor.getString(imageCursor
-							.getColumnIndex(MediaStore.Images.Media.DATA));
-					Log.d("path", selectedImagePath);
-				}
-			} else if (requestCode == Constants.SELECT_PICTURE_REQUEST) {
-				String[] projection = { MediaStore.Images.Media.DATA };
-				Cursor cursor = this.getContentResolver().query(originalUri,
-						projection, null, null, null);
-				int column_index = cursor
-						.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
-				cursor.moveToFirst();
-				String fpath = cursor.getString(column_index);
-				Log.d("path", fpath);
+			if (result) {
+				Toast.makeText(StartScreen.this, "Upload successful!",
+						Toast.LENGTH_SHORT).show();
+				finish();
+			} else {
+				Toast.makeText(StartScreen.this, "Upload failed!",
+						Toast.LENGTH_SHORT).show();
 			}
 		}
+
+	}
+	
+public class LoadProfilePictureTask extends AsyncTask<URL, Void, Boolean> {
+		
+		ProgressDialog p = ProgressDialog.show(StartScreen.this, "", "Loading profile picture...");
+		Bitmap image;
+		
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+			p.show();
+		}
+
+		@Override
+		protected Boolean doInBackground(URL... params) {
+			try {
+				if ((image = BitmapFactory.decodeStream(params[0].openStream())) != null) {
+					return true;
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return false;
+		}
+
+		@Override
+		protected void onPostExecute(Boolean result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
+			p.cancel();
+			
+			if (result) {
+				profilePic.setImageBitmap(image);
+			}
+		}
+
 	}
 
-	private Uri getUri() {
-		String state = Environment.getExternalStorageState();
-		if (!state.equalsIgnoreCase(Environment.MEDIA_MOUNTED))
-			return MediaStore.Images.Media.INTERNAL_CONTENT_URI;
+	public class GetServingURLTask extends AsyncTask<Void, Void, URL> {
+		
+		ProgressDialog p = ProgressDialog.show(StartScreen.this, "", "Getting profile picture location...");
 
-		return MediaStore.Images.Media.EXTERNAL_CONTENT_URI;
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			super.onPreExecute();
+			p.show();
+		}
+
+		@Override
+		protected URL doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			return API.getInstance(StartScreen.this).getServingURLForProfilePicture();
+		}
+
+		@Override
+		protected void onPostExecute(URL result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
+			p.cancel();
+			
+			if (result != null) {
+				new LoadProfilePictureTask().execute(result);
+			}
+		}
+
 	}
 
 }

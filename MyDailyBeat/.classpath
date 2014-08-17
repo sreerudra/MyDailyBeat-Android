@@ -10,9 +10,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/SlideExpandableListView"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/android-support-v7-gridlayout"/>
+	<classpathentry exported="true" kind="lib" path="/ViewPagerIndicatorLibrary/libs/android-support-v13.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/android-support-v7-gridlayout"/>
-	<classpathentry kind="lib" path="/ViewPagerIndicatorLibrary/libs/android-support-v13.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpmime-4.3.5.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/aFileDialog"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpclient-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpclient-cache-4.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpcore-4.3.2.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
