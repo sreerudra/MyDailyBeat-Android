@@ -3,26 +3,24 @@ package com.verve.api;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.ConnectException;
 import java.net.HttpURLConnection;
-import java.net.URI;
 import java.net.URL;
-import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.InputStreamEntity;
 import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.content.FileBody;
+import org.apache.http.entity.mime.content.StringBody;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -30,7 +28,6 @@ import org.json.JSONObject;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.util.Log;
 import android.util.Pair;
 
@@ -42,6 +39,7 @@ import com.verve.fragment.EmailMobileFragment;
 import com.verve.fragment.PersonalInfo1Fragment;
 import com.verve.fragment.ScreenNameFragment;
 
+@SuppressWarnings("deprecation")
 public class API {
 
 	private static API instance = null;
@@ -476,84 +474,46 @@ public class API {
 
 	}
 
-	@SuppressWarnings("deprecation")
-	public boolean uploadProfilePicture(File mediaToUpload) throws Exception{
+	public boolean uploadProfilePicture(File mediaToUpload) throws Exception {
+
+		String res;
+		res = makeRequest(BASE_URL, "users/getuploadurl", "", "GET", null);
+		JSONObject result = new JSONObject(res);
+
+		HttpClient httpclient = new DefaultHttpClient();
+		HttpPost httppost = new HttpPost(result.getString("response"));
+
+		FileBody fileBody = new FileBody(mediaToUpload);
+		MultipartEntity reqEntity = new MultipartEntity();
+
+		reqEntity.addPart("file", fileBody);
+		reqEntity.addPart("name", new StringBody(mediaToUpload.getName()));
+
+		httppost.setEntity(reqEntity);
+		HttpResponse response = httpclient.execute(httppost);
+
+		String res2 = EntityUtils.toString(response.getEntity());
+
+		JSONObject resultJson = new JSONObject(res2);
+
+		String blobKey = resultJson.getString("blobKey");
+		String servingURL = resultJson.getString("servingUrl");
 		
-		try {
-			URL url = new URL(BASE_URL + "/users/uploadProfilePic/");
-			System.out.println("Connect to: " + url);
+		JSONObject postData = new JSONObject();
+		postData.put("blobKey", blobKey);
+		postData.put("servingURL", servingURL);
+		postData.put("screenName", currentUser.screenName);
+		postData.put("password", currentUser.password);
 
-			HttpURLConnection connection = (HttpURLConnection) url
-					.openConnection();
-			connection.setDoOutput(true);
-			connection.setRequestMethod("POST");
-
-			MultipartEntity entity = new MultipartEntity();
-			entity.addPart(
-					"upload",
-					new FileBody(mediaToUpload, URLConnection
-							.guessContentTypeFromName(mediaToUpload.getName())));
-
-			connection.setRequestProperty("Content-Type", entity
-					.getContentType().getValue());
-			connection.setRequestProperty("Accept", "application/json");
-			OutputStream out = connection.getOutputStream();
-			try {
-				entity.writeTo(out);
-			} finally {
-				out.close();
-			}
-			InputStream in = null;
-			try {
-				int response = connection.getResponseCode();
-				if (response >= 200 && response < 300) {
-					in = new BufferedInputStream(connection.getInputStream());
-				} else {
-					in = new BufferedInputStream(connection.getErrorStream());
-				}
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-				return false;
-			}
-			try {
-				ByteArrayOutputStream bo = new ByteArrayOutputStream();
-				int i = in.read();
-				while (i != -1) {
-					bo.write(i);
-					i = in.read();
-				}
-				String output = bo.toString();
-				System.out.println("Returning from uploadProfilePic: "
-						+ output);
-				try {
-					JSONObject res = new JSONObject(output);
-					if (res.getString("response").equalsIgnoreCase(
-							"Operation succeeded")) {
-						return true;
-					}
-				} catch (JSONException e) {
-					System.err
-							.println("uploadProfilePic: exception formatting JSON:");
-					e.printStackTrace();
-					return false;
-				} catch (Exception e) {
-					System.err
-							.println("uploadProfilePic: generic exception:");
-					e.printStackTrace();
-					return false;
-				}
-			} catch (IOException e) {
-				return false;
-			} catch (NumberFormatException e) {
-				return false;
-			} finally {
-				in.close();
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
+		res = makeRequest(BASE_URL, "users/profile/blobkey/save", "", "POST", postData);
+		result = new JSONObject(res);
+		
+		if (result.getString("response").equalsIgnoreCase(
+				"Operation succeeded")) {
+			return true;
+		} else {
+			return false;
 		}
-		return false;
 	}
 
 	public static boolean hasConnectivity() {
