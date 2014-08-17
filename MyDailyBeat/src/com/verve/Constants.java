@@ -17,8 +17,8 @@ public final class Constants {
 			+ "VOLUNTEER_SETUP_COMPLETE";
 	public static final int LOGIN_REQUEST = 9019;
 	public static final String DEFAULT_AGE = "50";
-	public static final int SELECT_PICTURE_REQUEST = 8497;
-	public static final int SELECT_PICTURE_REQUEST_KITKAT = 8498;
+	public static final int SELECT_PICTURE_REQUEST = 8090;
+	public static final int SELECT_PICTURE_REQUEST_KITKAT = 9080;
 	
 	
 }

@@ -16,9 +16,8 @@ import java.util.ArrayList;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.mime.MultipartEntity;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.entity.mime.content.StringBody;
+import org.apache.http.entity.ContentType;
+import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
@@ -31,6 +30,8 @@ import android.net.NetworkInfo;
 import android.util.Log;
 import android.util.Pair;
 
+import com.verve.Constants;
+import com.verve.MimeTypeConstants;
 import com.verve.R;
 import com.verve.ScreenSlidePagerAdapter;
 import com.verve.Statics;
@@ -39,7 +40,6 @@ import com.verve.fragment.EmailMobileFragment;
 import com.verve.fragment.PersonalInfo1Fragment;
 import com.verve.fragment.ScreenNameFragment;
 
-@SuppressWarnings("deprecation")
 public class API {
 
 	private static API instance = null;
@@ -481,38 +481,66 @@ public class API {
 		JSONObject result = new JSONObject(res);
 
 		HttpClient httpclient = new DefaultHttpClient();
+		System.out.println("Upload URL:" +  result.getString("response"));
 		HttpPost httppost = new HttpPost(result.getString("response"));
 
-		FileBody fileBody = new FileBody(mediaToUpload);
-		MultipartEntity reqEntity = new MultipartEntity();
+		String filename = mediaToUpload.getName();
+		Log.d(Constants.BASE_TAG, filename);
+		String key = filename.substring(filename.indexOf(".")+1);
+		MultipartEntityBuilder builder = MultipartEntityBuilder.create();
+		
+		builder.addBinaryBody("file", mediaToUpload, ContentType.create(MimeTypeConstants.getMimeType(key)), filename);
+		builder.addTextBody("name", filename);
 
-		reqEntity.addPart("file", fileBody);
-		reqEntity.addPart("name", new StringBody(mediaToUpload.getName()));
-
-		httppost.setEntity(reqEntity);
+		httppost.setEntity(builder.build());
+		
 		HttpResponse response = httpclient.execute(httppost);
-
+		
+		System.out.println("Response Code: " + response.getStatusLine());
+		
 		String res2 = EntityUtils.toString(response.getEntity());
+		
+		System.out.println(res2);
 
 		JSONObject resultJson = new JSONObject(res2);
 
 		String blobKey = resultJson.getString("blobKey");
 		String servingURL = resultJson.getString("servingUrl");
-		
+
 		JSONObject postData = new JSONObject();
 		postData.put("blobKey", blobKey);
 		postData.put("servingURL", servingURL);
 		postData.put("screenName", currentUser.screenName);
 		postData.put("password", currentUser.password);
 
-		res = makeRequest(BASE_URL, "users/profile/blobkey/save", "", "POST", postData);
-		result = new JSONObject(res);
-		
-		if (result.getString("response").equalsIgnoreCase(
+		String res3 = makeRequest(BASE_URL, "users/profile/blobkey/save", "",
+				"POST", postData);
+		JSONObject result2 = new JSONObject(res3);
+
+		if (result2.getString("response").equalsIgnoreCase(
 				"Operation succeeded")) {
 			return true;
 		} else {
 			return false;
+		}
+
+	}
+	
+	public URL getServingURLForProfilePicture() {
+		String res;
+		try {
+			System.out.println("Inside try");
+			res = makeRequest(BASE_URL, "users/profile/blobkey/retrieve", "screen_name="
+					+ URLEncoder.encode(currentUser.screenName, "UTF-8") + "&password="
+					+ URLEncoder.encode(currentUser.password, "UTF-8"), "GET", null);
+			JSONObject result = new JSONObject(res);
+			
+			URL returnURL = new URL(result.getString("servingURL"));
+			return returnURL;
+
+			
+		} catch (Exception e) {
+			return null;
 		}
 	}
 

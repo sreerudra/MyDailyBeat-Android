@@ -16,171 +16,183 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
-    <RelativeLayout
-        android:id="@+id/RelativeLayout2"
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="vertical" >
+        android:layout_below="@+id/textView1" >
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:id="@+id/RelativeLayout2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Change Profile Picture!"
-            android:textColor="@android:color/black" />
+            android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button10"
-            android:layout_alignRight="@id/button10"
-            android:layout_below="@+id/button10"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Make new friends!"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Change Profile Picture!"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button1"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Date exclusively"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button10"
+                android:layout_alignRight="@id/button10"
+                android:layout_below="@+id/button10"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Make new friends!"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button2"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Have a Fling!"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Date exclusively"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button3"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Social Activities"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Have a Fling!"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button4"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Find Resources"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Social Activities"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button5"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Go Shopping"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button4"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Find Resources"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button6"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Find a Job"
-            android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button5"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Go Shopping"
+                android:textColor="@android:color/black" />
 
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button7"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Volunteer"
-            android:textColor="@android:color/black" />
-        
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@id/button1"
-            android:layout_alignRight="@id/button1"
-            android:layout_below="@+id/button8"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_button"
-            android:text="Go!"
-            android:textColor="@android:color/black" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button6"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Find a Job"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button7"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Volunteer"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/button1"
+                android:layout_alignRight="@id/button1"
+                android:layout_below="@+id/button8"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Go!"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
