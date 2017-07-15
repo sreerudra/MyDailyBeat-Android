@@ -13,16 +13,10 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-support-v131" level="project" />
     <orderEntry type="library" name="android-support-v13" level="project" />
-    <orderEntry type="library" name="viewpagerindicatorlibrary" level="project" />
     <orderEntry type="library" name="libs" level="project" />
-    <orderEntry type="library" name="slideexpandablelistview" level="project" />
-    <orderEntry type="module" module-name="ViewPagerIndicatorLibrary" />
-    <orderEntry type="module" module-name="SlideExpandableListView" />
-    <orderEntry type="module" module-name="gridlayout_v7" />
   </component>
 </module>
-

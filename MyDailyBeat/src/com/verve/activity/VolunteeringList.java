@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.tjerkw.slideexpandable.library.SlideExpandableListAdapter;
 import com.verve.R;
 import com.verve.VolunteeringListAdapter;
 
@@ -24,9 +23,6 @@ public class VolunteeringList extends Activity {
 
 		list = (ListView) findViewById(R.id.list);
 		VolunteeringListAdapter adapter = new VolunteeringListAdapter(this);
-
-		list.setAdapter(new SlideExpandableListAdapter(adapter,
-				R.id.expandable_toggle_button, R.id.expandable));
 	}
 
 }

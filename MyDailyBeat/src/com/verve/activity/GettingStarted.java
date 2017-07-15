@@ -8,7 +8,6 @@ import android.support.v4.view.ViewPager;
 
 import com.verve.R;
 import com.verve.ScreenSlidePagerAdapter;
-import com.viewpagerindicator.CirclePageIndicator;
 
 public class GettingStarted extends FragmentActivity {
 	
@@ -28,7 +27,6 @@ public class GettingStarted extends FragmentActivity {
      * The pager adapter, which provides the pages to the view pager widget.
      */
     private PagerAdapter mPagerAdapter;
-    private CirclePageIndicator mIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +38,6 @@ public class GettingStarted extends FragmentActivity {
         mPagerAdapter = new ScreenSlidePagerAdapter(this.getFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         ((ScreenSlidePagerAdapter) mPagerAdapter).setPager(mPager);
-        mIndicator = (CirclePageIndicator) findViewById(R.id.indicator);
-        mIndicator.setViewPager(mPager);
-        mIndicator.setBackgroundColor(color.black);
     }
 
     @Override

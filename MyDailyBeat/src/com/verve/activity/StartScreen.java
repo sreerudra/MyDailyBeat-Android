@@ -18,7 +18,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-import ar.com.daidalos.afiledialog.FileChooserDialog;
 
 import com.verve.Constants;
 import com.verve.R;
@@ -48,37 +47,6 @@ public class StartScreen extends Activity {
 
 		profilePic = (ImageView) findViewById(R.id.imageView1);
 		new GetServingURLTask().execute();
-
-		changeprofilepic = (Button) findViewById(R.id.button10);
-		changeprofilepic.setOnClickListener(new View.OnClickListener() {
-
-			@SuppressLint("InlinedApi")
-			@Override
-			public void onClick(View v) {
-
-				FileChooserDialog dialog = new FileChooserDialog(
-						StartScreen.this);
-				dialog.setFilter(".*jpg|.*png|.*gif|.*JPG|.*PNG|.*GIF");
-				dialog.addListener(new FileChooserDialog.OnFileSelectedListener() {
-
-					@Override
-					public void onFileSelected(Dialog source, File folder,
-							String name) {
-						source.hide();
-						// files will never be created, so this method is unused
-					}
-
-					@Override
-					public void onFileSelected(Dialog source, File file) {
-						source.hide();
-						new UploadProfilePictureTask(file).execute();
-
-					}
-				});
-				dialog.show();
-
-			}
-		});
 
 		makeFriends = (Button) findViewById(R.id.button1);
 		makeFriends.setOnClickListener(new View.OnClickListener() {

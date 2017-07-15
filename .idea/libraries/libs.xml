@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/httpclient-4.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/httpclient-cache-4.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/httpmime-4.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/httpcore-4.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
