@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyDailyBeat</string>
+    <string name="pass">Password</string>
+    <string name="email">E-mail Address</string>
+    <string name="welcome">Welcome, please sign in.</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="first">First Time?</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

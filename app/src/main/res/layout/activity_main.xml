@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evervecorp.mydailybeat.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:id="@+id/userNameText"
+        android:layout_width="353dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/passText"
+        android:layout_width="353dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="@+id/loginButton"
+        app:layout_constraintRight_toRightOf="@id/userNameText"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@id/userNameText"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@id/loginButton"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:text="@string/signin"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@id/passText"
+        app:layout_constraintLeft_toLeftOf="@id/userNameText"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/passText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first"
+        android:layout_marginTop="107dp"
+        app:layout_constraintTop_toBottomOf="@id/loginButton"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
