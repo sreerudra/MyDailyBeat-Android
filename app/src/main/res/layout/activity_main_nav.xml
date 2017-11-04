@@ -16,7 +16,7 @@
     <android.support.design.widget.NavigationView
         android:id="@+id/profile_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true" >
 
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:choiceMode="singleChoice"
-                android:background="#ffffff"/>
+                android:background="#0097A4"/>
         </LinearLayout>
     </android.support.design.widget.NavigationView>
 
@@ -53,7 +53,7 @@
             android:orientation="vertical">
 
             <include
-                layout="@layout/nav_header_main_nav"
+                layout="@layout/menu_header_main_nav"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:choiceMode="singleChoice"
-                android:background="#ffffff"/>
+                android:background="#0097A4"/>
         </LinearLayout>
     </android.support.design.widget.NavigationView>
 

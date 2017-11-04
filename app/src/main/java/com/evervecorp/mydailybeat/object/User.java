@@ -92,10 +92,6 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getName() {
-        return firstName + " " + lastName;
-    }
-
     public void setName(String name) {
         StringTokenizer tokenizer = new StringTokenizer(name, " ");
         this.firstName = tokenizer.nextToken();

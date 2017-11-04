@@ -23,6 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="Welcome, where would you like to go?"
                 android:layout_gravity="center"
+                android:textColor="#ffffff"
                 android:id="@+id/toolbar_title" />
 
         </android.support.v7.widget.Toolbar>
