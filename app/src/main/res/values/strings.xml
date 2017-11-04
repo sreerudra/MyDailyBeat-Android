@@ -12,4 +12,18 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string-array name="menu_items">
+        <item>Home</item>
+        <item>Check My Finances</item>
+        <item>Reach Out...\nI\'m Feeling Blue</item>
+        <item>Find a Job</item>
+        <item>Go Shopping</item>
+        <item>Have a Fling</item>
+        <item>Start a Relationship</item>
+        <item>Make Friends</item>
+        <item>Manage My Health</item>
+        <item>Travel</item>
+        <item>Refer a Friend</item>
+        <item>Volunteering</item>
+    </string-array>
 </resources>

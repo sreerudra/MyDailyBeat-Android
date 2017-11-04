@@ -10,404 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba613735-b924-405a-b6fc-72bacb15c0a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v131.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/MyDailyBeat.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/android/support/v7/gridlayout/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/android/support/v7/gridlayout/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/android/support/v7/gridlayout/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/android/support/v7/gridlayout/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/android/support/v7/gridlayout/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/ar/com/daidalos/afiledialog/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/tjerkw/slideexpandable/library/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/tjerkw/slideexpandable/library/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/AddFriendsListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/MimeTypeConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/ScreenSlidePagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/Statics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/StatusUpdate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/StatusUpdateQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/VerveStandardUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/VolunteeringListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/VolunteeringOpportunity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/AddFriendsListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/DateExclusivelyPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/DateExclusivelyPrefs$LoadRelationshipPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/DateExclusivelyPrefs$SaveRelationshipPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/DateExclusivelyPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/FlingPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/FlingPrefs$LoadFlingPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/FlingPrefs$SaveFlingPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/FlingPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/GettingStarted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/MakeFriendsPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/MakeFriendsPrefs$LoadHobbyPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/MakeFriendsPrefs$SaveHobbyPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/MakeFriendsPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/SocialActivities$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/SocialActivities$LoadSocialPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/SocialActivities$SaveSocialPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/SocialActivities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$GetServingURLTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$LoadProfilePictureTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen$UploadProfilePictureTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/StartScreen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/TabFragmentActivity$LoginTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/TabFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/VolunteerPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/VolunteerPrefs$LoadVolunteeringPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/VolunteerPrefs$SaveVolunteeringPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/VolunteerPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/activity/VolunteeringList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/api/API.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginDialog$LoginTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginError$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/dialog/LoginError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/EmailMobileFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/EmailMobileFragment$CreateUserTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/EmailMobileFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/FlingStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/HomeStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/MessageStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/PeopleStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/PersonalInfo1Fragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/PersonalInfo1Fragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/ScreenNameFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/ScreenNameFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/ShoppingStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/TabsFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/TabsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/VolunteeringStatusFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/VolunteeringStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/WelcomeFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/WelcomeFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/WelcomeFragment2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/verve/fragment/WelcomeFragment2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/classes/com/viewpagerindicator/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/bin/jarlist.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/gen/com/verve/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/gen/com/verve/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/gen/com/verve/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/httpclient-4.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/httpclient-cache-4.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/httpcore-4.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/httpmime-4.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/libs/joda-time-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/lint.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/add_friends_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/background.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/bordered_textview_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/bubbles3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/bubbles3_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/cart2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/cart2_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/fling.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/heart_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/home.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/home2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/home2_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/listelement_bkgd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/messaging.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/people.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/plus_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/rounded_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/settings_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/shopping.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/users.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/drawable/users_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/addfriends_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/email_mobile_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/login_error.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/login_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/main1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/make_friends_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/new_opportunities_inner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/new_volunteering_opportunities.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/personal_info_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/preferences_with_ok.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/screen_name_and_password.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/social_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/status_block.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/status_inner_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/status_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/tabs_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/welcome.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/layout/welcome2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/menu/main_action.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_go_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_new_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_new_post.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-hdpi/ic_next_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_go_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_new_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_new_post.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-mdpi/ic_next_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_go_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_new_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_new_post.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xhdpi/ic_next_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_go_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_new_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_new_post.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable-xxhdpi/ic_next_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_camera.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_gallery.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_manage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_send.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_share.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/ic_menu_slideshow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/next_arrow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/next_arrow_white.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/drawable/side_nav_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/activity_main_nav.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/activity_sign_up.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/app_bar_main_nav.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/content_main_nav.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/email_mobile_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/group_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/menu_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/message_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/nav_header_main_nav.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/personal_info_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/post_layout_no_picture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/post_layout_with_picture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/layout/screenname_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/menu/main_nav.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/menu/right_drawer_open_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/xml/date_exclusively_prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/xml/fling_prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/xml/make_friends_prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/xml/social_prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/res/xml/volunteer_prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/AddFriendsListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/MimeTypeConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/ScreenSlidePagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/Statics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/StatusUpdate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/StatusUpdateQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/VerveStandardUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/VolunteeringListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/VolunteeringOpportunity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/AddFriendsListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/DateExclusivelyPrefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/FlingPrefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/GettingStarted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/MakeFriendsPrefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/SocialActivities.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/StartScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/TabFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/VolunteerPrefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/activity/VolunteeringList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/api/API.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/dialog/LoginDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/dialog/LoginError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/EmailMobileFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/FlingStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/HomeStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/MessageStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/PeopleStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/PersonalInfo1Fragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/ScreenNameFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/ShoppingStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/TabsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/VolunteeringStatusFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/WelcomeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/com/verve/fragment/WelcomeFragment2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/activity/GroupActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/activity/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/activity/MainNavActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/activity/SignUpActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/comm/RestAPI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/db/DBManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/db/MyPeepsDBHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/fragment/EmailMobileFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/fragment/MessageFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/fragment/PersonalInfoFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/fragment/ScreenNameFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/fragment/SignUpFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/list/DrawerListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/list/PostListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/list/SubtitleMenuItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/object/Group.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/object/Post.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyDailyBeat/src/edu/bu/met/vbalabhadrapatruni/mypeeps/object/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/AddFriendsListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/MimeTypeConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/ScreenSlidePagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/Statics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/StatusUpdate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/StatusUpdateQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/VerveStandardUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/VolunteeringListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/VolunteeringOpportunity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/AddFriendsListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/DateExclusivelyPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/DateExclusivelyPrefs$LoadRelationshipPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/DateExclusivelyPrefs$SaveRelationshipPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/DateExclusivelyPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/FlingPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/FlingPrefs$LoadFlingPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/FlingPrefs$SaveFlingPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/FlingPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/GettingStarted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/MakeFriendsPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/MakeFriendsPrefs$LoadHobbyPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/MakeFriendsPrefs$SaveHobbyPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/MakeFriendsPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/SocialActivities$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/SocialActivities$LoadSocialPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/SocialActivities$SaveSocialPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/SocialActivities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$GetServingURLTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$LoadProfilePictureTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen$UploadProfilePictureTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/StartScreen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/TabFragmentActivity$LoginTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/TabFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/VolunteerPrefs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/VolunteerPrefs$LoadVolunteeringPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/VolunteerPrefs$SaveVolunteeringPreferencesTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/VolunteerPrefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/activity/VolunteeringList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/api/API.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginDialog$LoginTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginError$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/dialog/LoginError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/EmailMobileFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/EmailMobileFragment$CreateUserTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/EmailMobileFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/FlingStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/HomeStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/MessageStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/PeopleStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/PersonalInfo1Fragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/PersonalInfo1Fragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/ScreenNameFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/ScreenNameFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/ShoppingStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/TabsFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/TabsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/VolunteeringStatusFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/VolunteeringStatusFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/WelcomeFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/WelcomeFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/WelcomeFragment2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyDailyBeat/com/verve/fragment/WelcomeFragment2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/InviteSendingMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/UserVerified.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/MenuItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/FlingProfile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/HobbiesPreferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/MatchingPreferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/UserPreferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/reference/HobbiesRefList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_header_main_nav.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/regular_menu_list_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/right_menu_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/DrawerListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/DrawerListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/SubtitleMenuItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/SubtitleMenuItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_nav.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_nav.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main_nav.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main_nav.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/menu_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main_nav.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main_nav.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="MyDailyBeat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -439,62 +76,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RestAPI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RestAPI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+            <state relative-caret-position="411">
+              <caret line="445" column="8" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2154#2155#0" expanded="true" />
+                <element signature="e#2193#2194#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/GroupActivity.java">
+      <file leaf-file-name="InviteSendingMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/InviteSendingMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainNavActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
-              <folding>
-                <element signature="e#2160#2178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/SignUpActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -505,6 +106,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -569,6 +174,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare de.hdodenhof:circleimageview:2.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareDeHdodenhofCircleimageview210Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
@@ -1310,6 +920,11 @@
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare de.hdodenhof:circleimageview:2.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareDeHdodenhofCircleimageview210Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportConstraintConstraintLayout102Library" />
@@ -2021,7 +1636,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android" value="4506373468872" />
+        <entry key="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android" value="4508271430356" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2375,34 +1990,54 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main_nav.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/right_drawer_open_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/PostListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/dialog/LoginDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/MessageFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main_nav.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main_nav.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/PersonalInfoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/ScreenNameFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/EmailMobileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/DrawerListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/GroupActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/MenuItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/SubtitleMenuItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/menu_header_main_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/DrawerListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/right_menu_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/menu_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_nav.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/regular_menu_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/UserVerified.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/UserPreferences.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/protocol/JSONConversionInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/extended/ExtendedJSONArray.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/MatchingPreferences.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/reference/HobbiesRefList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/HobbiesPreferences.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/FlingProfile.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/JSONBody.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/InviteSendingMethod.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2411,7 +2046,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2429,10 +2064,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2453,46 +2088,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDailyBeat-Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDailyBeat-Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2525,6 +2120,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mydailybeat" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyDailyBeat-Android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydailybeat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enumeration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2549,38 +2166,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDailyBeat-Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mydailybeat" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDailyBeat-Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2594,15 +2179,15 @@
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\res\layout" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\java\com\evervecorp\mydailybeat" />
       <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\java\com\evervecorp\mydailybeat\dialog" />
       <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\java\com\evervecorp\mydailybeat\object" />
       <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\java\com\evervecorp\mydailybeat\list" />
       <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\java\com\evervecorp\mydailybeat\fragment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Virinchi\MyDailyBeat\MyDailyBeat-Android\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -2931,7 +2516,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2941,15 +2526,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30987054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13264059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2963,6 +2546,8 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3802589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2977,67 +2562,85 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/GroupActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-255">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main_nav.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/right_drawer_open_menu.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/SubtitleMenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_nav.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/right_drawer_open_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -3049,90 +2652,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main_nav.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="android-dummy://C:/Users/Virinchi/MyDailyBeat/MyDailyBeat-Android//Theme Editor">
-      <provider selected="true" editor-type-id="themeEditor">
-        <state theme-name="android:Theme.Material.Light.NoActionBar" module-name="app" proportion="0.67" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/PostListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/screenname_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="561">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/dialog/LoginDialog.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/dialog/LoginError.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/SignUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1649">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding>
+            <element signature="e#5064#5065#0" expanded="false" />
+            <element signature="e#5104#5105#0" expanded="false" />
+            <element signature="e#5249#5250#0" expanded="false" />
+            <element signature="e#5322#5323#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_header_main_nav.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/group_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/LaunchImg.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/plus-512.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/add_friends_white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/right_menu_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3140,110 +2720,176 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main_nav.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="43" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main_nav.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="2346">
+          <caret line="168" column="28" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/MessageFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/menu_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="36" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/regular_menu_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_nav.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/UserVerified.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/PersonalInfoFragment.java">
+    <entry file="file://C:/Android/sdk/sources/android-25/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="271">
+          <caret line="1594" column="15" selection-start-line="1594" selection-start-column="15" selection-end-line="1594" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#65018#65019#0" expanded="false" />
+            <element signature="e#65056#65057#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/ScreenNameFragment.java">
+    <entry file="file://C:/Android/sdk/sources/android-25/android/graphics/drawable/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="1104" column="69" selection-start-line="1104" selection-start-column="69" selection-end-line="1104" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/fragment/EmailMobileFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="1292">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2872#2873#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/list/DrawerListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/GroupActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/protocol/JSONConversionInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/UserPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/extended/ExtendedJSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/MatchingPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainNavActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/reference/RefList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/reference/HobbiesRefList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
-            <element signature="e#2160#2178#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/SignUpActivity.java">
+    <entry file="file://C:/Android/sdk/sources/android-25/org/json/JSONArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+        <state relative-caret-position="280">
+          <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/HobbiesPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/FlingProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3255,22 +2901,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java">
+    <entry file="jar://C:/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar!/org/apache/http/client/methods/HttpPost.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/fc70ffa234e7e77741867d38b341d162ec1ec01e/okhttp-3.8.1-sources.jar!/okhttp3/MultipartBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/activity/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/MimeTypeConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/fc70ffa234e7e77741867d38b341d162ec1ec01e/okhttp-3.8.1-sources.jar!/okhttp3/RequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/fc70ffa234e7e77741867d38b341d162ec1ec01e/okhttp-3.8.1-sources.jar!/okhttp3/FormBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="123" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/JSONBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/object/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/enumeration/InviteSendingMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/evervecorp/mydailybeat/comm/RestAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="445" column="8" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2154#2155#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,18 +4,12 @@ package com.evervecorp.mydailybeat.list;
  * Created by Virinchi on 3/27/2017.
  */
 
-public class SubtitleMenuItem {
-    String mTitle;
+public class SubtitleMenuItem extends MenuItem {
+
     String mSubtitle;
-    int mIcon;
-    boolean hasImage = true;
 
     public SubtitleMenuItem(String mTitle, String mSubtitle, int mIcon) {
-        this.mTitle = mTitle;
+        super(mTitle, mIcon);
         this.mSubtitle = mSubtitle;
-        this.mIcon = mIcon;
-        if (this.mIcon == -1) {
-            hasImage = false;
-        }
     }
 }
